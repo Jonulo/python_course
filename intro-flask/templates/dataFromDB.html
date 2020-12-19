@@ -1,0 +1,7 @@
+<h1>Data from Data Base</h1>
+
+<ol>
+  {% for user in users %}
+  <li>{{ user.email, user.username, user.edad }}</li>
+  {% endfor %}
+</ol>

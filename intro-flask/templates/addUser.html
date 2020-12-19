@@ -1,0 +1,14 @@
+{% extends 'index.html' %}
+
+{% block title %}
+  Add User
+{% endblock %}
+
+{% block content %}
+<form method="POST">
+  <input type="text" placeholder="username" name="username" required>
+  <input type="text" placeholder="email" name="email" required>
+  <input type="number" placeholder="age" name="age" required>
+  <input type="submit" value="Add User">
+</form>
+{% endblock %}
